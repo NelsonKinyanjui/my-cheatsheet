@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My cheatsheet</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Nelson kinyajui">
+        <meta name="Description" content=" code cheatsheet">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <h1>Dev368 cheat sheet</h1>
+            <h2>Html cheatsheet</h2>
+            <div>
+                <ul>
+                    <li>
+                    &lt;!DOCTYPE html&gt; declaration
+                </li>
+                    <li>
+                    &lt;html lang="en"&gt; document
+                </li>
+            <li>
+                &lt;body&gt; body
+            </li>
+            <li>
+           &lt;h1&gt; heading
+        </li>
+           <li>
+           &lt;p1&gt; paragraph
+        </li>
+           <li>
+           &lt;a&gt; link
+        </li>
+           <li>
+           &lt;img&gt; Image
+        </li>
+           <li>
+           &lt;scr&gt; source
+        </li>
+           <li>
+           &lt;br&gt; break
+        </li>
+        </ul>
+    </div>
+        <h2>Tables</h2>
+        <div>
+            <table>
+                <caption>
+                    Table elements
+                </caption>
+                <thead>
+                <tr>
+                <th scope="col">
+                    table symbols
+                </th>
+                <th scope="col">meaning</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <th scope="row">&lt;tr&gt;</th>
+                    <td>Table row</td>
+                </tr>
+                <tr>
+                    <th scope="row">&lt;th&gt;</th>
+                    <td>Table head</td>
+                </tr>
+                <tr>
+                    <th scope="row">&lt;td&gt;</th>
+                    <td>Table data</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">colspan</th>
+                    <td>Column span</td>
+                </tr>
+                <tr>
+                    <th scope="row">rowspan</th>
+                    <td>Row span</td>
+                </tr>
+            </tfoot>
+            </table>
+            <dl>
+                <dt>dl</dt>
+                <dd>description list</dd>
+            </dl>
+            <dl>
+                <dt>dt</dt>
+                <dd>description term</dd>
+            </dl>
+            <dl>
+                <dt>dd</dt>
+                <dd>description details</dd>
+            </dl>
+        </div>
+        <div>
+            <h2>Forms</h2>
+            <p>
+                <ul>
+              <li>   &lt;form&gt;</li>
+              <li> &lt;fileldset&gt;</li>
+              <li> &lt;legend&gt;</li>
+                <li>   &lt;/legend&gt;</li>
+
+                <li>  &lt;/fieldset&gt;</li>
+                <li>  &lt;/form&gt; </li>
+                <li>  &lt;input type="name" name="name" id="name" value="name"&gt;
+                    &lt;label for="Name"&gt;Name&lt;/label &gt;
+                </li>
+    
+                    <li>&lt;fieldset&gt;
+                        &lt;legend&gt;Send Me A Note&lt;/legend&gt; <br>
+                        &lt;label for="message">Your Message&lt;/label&gt; <br>
+                        &lt;textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"&gt;&lt;/textarea&gt;
+                        &lt;/fieldset>
+                </li>
+                <li>
+                
+                    <br>
+                    &lt;button type="submit"&gt;Submit&lt;/button&gt; <br>
+                    &lt;button type="submit" formaction="https://httpbin.ogr/post" formmethod="post">Post&lt;/button&gt; <br>
+                    &lt;button type="reset"&gt;Reset&lt;button&gt; <br>
+                </li>
+                </ul>
+        </div>
+    
+        <h2>CSS cheatsheet</h2>
+        <h3>fonts</h3>
+        <p>
+            <div>
+                <ul>
+                    <li>font-family eg. Georgia</li>
+                    <li>font-size eg. 18px</li>
+                    <li>Text-align ,ie bold ,normal</li>
+                    <li>Text align ie. left,centre,right</li>
+                     
+                </ul>
+
+            </div>
+        <h3>Colors</h3>
+        <p>
+            <div>
+                <ul>
+                    <li>color and back-ground color</li>
+                    <li>opacity0-1)</li>
+                    <li> Back-ground image{ url(image link)}</li>
+                    
+                </ul>
+
+            </div>
+        <h2>Box model</h2>
+            <div>
+                <dl>
+                <dt>Border</dt>
+                <dd>width -thin,thick, medium</dd>
+                    <dd>style- non, dotted ,solid</dd>
+                <dt>Padding</dt>
+                    <dd>Top ,bottom, right,left (6px, 12px, 4px, 9px,)</dd>
+                <dt>Margin </dt>
+                <dd>0 ,auto : centres elements in containing block</dd>
+                <dt>Position propety</dt>
+                <dd>static (default) ,relative , absolute, fixed, sticky</dd>
+                    <dt>Display</dt>
+                    <dd>Inline, block, inline-block</dd>
+                     
+                     <dt>overflow</dt>
+                     <dd>hidden, scroll, visible</dd>
+                     
+                </dl>
+
+            </div>
+            <h2>Git&github</h2>
+            <div>
+                <dl>
+                    <dt>git init</dt>
+                    <dd>Creates a local repository</dd>
+                    <dt>git commit-m "message"</dt>
+                    <dd>commits working tree to a brancmh</dd>
+                    <dt>git workflow</dt>
+                    <dd>Editing files in the working directory,adding files tothe staging area & saving changes to a git repository</dd>
+                    <dt>git diff</dt>
+                    <dd> checks diff btwn working directory and staging area</dd>
+                    <dt>git log</dt>
+                    <dd>used to vie commits in the repository</dd>
+                    <dt>git add</dt>
+                    <dd>adds files from the working directory to the staging area</dd>
+                    <dt>git status</dt>
+                    <dd> Inspects the content of the directories and staging areas</dd>
+                    <dt>git branch -d</dt>
+                    <dd>Deletes a local branch</dd>
+                    <dt>git branch</dt>
+                    <dd>adds a branch</dd>
+                    <dt> git checkout -name</dt>
+                    <dd>changes the working branch</dd>
+                    <dt>git merge</dt>
+                    <dd>merges current brancnh into main branch</dd>
+                    <dt>git stash</dt>
+                    <dd>allows you to get back to a clean commit point with a synchronized working tree and avoid losing local changes in the process</dd>
+                    <dt>git stash pop</dt>
+                    <dd>pops up work that was store using git stash</dd>
+                </dl>
+            </div>
+            <h3>git workflow</h3>
+            <div>
+                <dl>
+                    <dt>fork project</dt>
+                    <dd>forks project from github</dd>
+                    <dt>cloning github forked project into machine</dt>
+                    <dd>git clone https://github.com/
+                        USER_NAME/REPOSITORY_NAME
+                        .git</dd>
+                    <dt>add remote to point original (upstream) repo</dt>
+                    <dd>git remote add upstream https://github.com/
+                        USER_NAME/REPOSITORY_NAME
+                        .git</dd>
+                    <dt>Check for correct branch and clean staging area</dt>
+                    <dd> git status</dd>
+                    <dt>wath out difference </dt>
+                    <dd>git diff</dd>
+                    <dt>add  file to staging area</dt>
+                    <dd>git add , git status</dd>
+                    <dt>commit files </dt>
+                    <dd>git commit -m "" git status</dd>
+                    <dt>Push changes to github fork</dt>
+                    <dd>git push origin master</dd>
+                </dl>
+            </div>
+    </body>
+</html>
